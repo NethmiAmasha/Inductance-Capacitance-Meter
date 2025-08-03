@@ -1,6 +1,8 @@
 # Inductance Capacitance Meter
 
-![Final Product](pictures/final.png)
+<p align="center">
+  <img src="pictures/final.png" width="400"/>
+</p>
 
 This project presents an Inductance-Capacitance (L-C) Meter designed and built as part of the Laboratory Practice and Projects module. This device is capable of measuring a wide range of inductance and capacitance values, making it an essential tool for electronics hobbyists and professionals.
 
@@ -56,18 +58,24 @@ The device comprises two main measurement circuits: one for inductance and one f
 **Inductance Measurement Circuit:**
 This circuit is based on a Colpitts oscillator. The unknown inductor resonates with a known capacitor, and the resulting oscillation frequency is measured. This frequency is then converted to a voltage to calculate the inductance.
 
-![Inductance Measurement Schematic](pictures/inductance.png)
+<p align="center">
+  <img src="pictures/inductance.png" width="700"/>
+</p>
 
 **Capacitance Measurement Circuit:**
 This circuit works by charging the unknown capacitor and comparing its voltage to a reference. An integrator circuit is used to generate a ramp voltage, and by sampling this voltage at a specific time, the capacitance is determined.
 
-![Capacitance Measurement Schematic](pictures/capacitance.png)
+<p align="center">
+  <img src="pictures/capacitance.png" width="700"/>
+</p>
 
 ### PCB Design
 
 A custom PCB was designed to house all the components, ensuring a compact and reliable build.
 
-![PCB](pictures/pcb)
+<p align="center">
+  <img src="pictures/pcb.png" width="400"/>
+</p>
 
 ## Software
 
